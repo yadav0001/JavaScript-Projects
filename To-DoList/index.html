@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+    <ul>
+        <li><a href="">Account</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Home</a></li>
+    </ul>
+    </nav>
+
+    <h1>To-Do List</h1>
+
+    <div id="input-div" style="text-align:center;">
+        <form action="app.js">
+            <label for="title" >Title</label>
+            <input type="text" id="title" name="title"><br>
+            <label for="Description">Description</label>
+            <textarea name="descrip" id="Description" cols="35" rows="5"></textarea>
+            <br><br>
+        </form>
+        <button id="add"onclick="addItem()">Add Item</button><button id="clear"onclick="clearList()">Clear List</button>
+    </div>
+    <div id="items" style="text-align: center;">
+        <h2>Your Items</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" style="width:50px;">No</th>
+                <th scope="col" style="max-width:250px;">Item Title</th>
+                <th scope="col">Item Description</th> 
+                <th scope="col" style="width:130px;">Action</th> 
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              
+              
+            </tbody>
+          </table>
+    </div>
+    
+ <script src="app.js"></script>   
+</body>
+</html>

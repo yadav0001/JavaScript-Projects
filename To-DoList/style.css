@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    background: #488ccf;
+}
+
+
+#navbar{
+    height:70px;
+    background-color:black;
+    
+}
+li{
+    display: inline;
+    float:right;
+    padding-right:20px;
+    margin-top:45px;
+    background-color: black;  
+    list-style-type: none;
+    
+}
+li a{
+    text-decoration: none;
+    color:white;
+    background-color: black;  
+    font-size:larger;
+    
+}
+h1{
+    text-align: center;
+    color:white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+#title{
+margin-left: 50px;
+margin-bottom:50px;
+margin-top:50px;
+width:264px;
+height:30px;
+border: 1px solid #91C9FF;
+background-color:white;  
+}
+label{
+    padding:20px;
+    margin-left:-115px;
+    color:white;
+    
+}
+
+#add{
+  margin-left:22px ;
+  color:white;
+  width: 122px;
+  height: 35px;
+  cursor: pointer;
+  background:rgba(8, 196, 49, 0.74);
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: .4s ease-in-out;
+    
+}
+#add:hover {
+    transition: .4s ease-in-out;
+    background:transparent;
+    width:110px;
+    
+
+  }
+
+#clear{
+
+  margin:15px;
+  color:white;
+  width: 122px;
+  height: 35px;
+  cursor: pointer;
+  background: #bd0000;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: .4s ease-in-out;
+
+}
+#clear:hover {
+    transition: .4s ease-in-out;
+    background: transparent;
+    width:110px;
+   
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:white;
+  background-color: #5CA4EA;
+}
+
+ th,td {
+  border: 1px solid #91C9FF;
+  text-align: center;
+  padding: 8px;
+   
+}
+
+.btn-del{
+  color:white;
+  width: 60px;
+  
+  cursor: pointer;
+  background: #bd0000;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: .4s ease-in-out;
+  padding:4px;
+}
+  
+.btn-del:hover {
+    transition: .4s ease-in-out;
+    background: transparent;
+}
+h2{
+    text-align: center;
+    color:white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+textarea{
+    border: 1px solid #91C9FF;
+    background-color: white;  
+}
