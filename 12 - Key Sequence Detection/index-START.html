@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+
+    const keypresses=[];
+    const code="naveen";
+
+    function func(e){
+      keypresses.push(e.key);
+      if(keypresses.length>6) keypresses.shift();
+
+      if(keypresses.join('').includes(code)){
+        cornify_add();
+      }
+      console.log(keypresses);
+    }
+    window.addEventListener('keyup',func);
+</script>
+</body>
+</html>
